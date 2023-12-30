@@ -1,83 +1,81 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <style>
+      body {
+          text-align: center;
+      }
+
+      .centered-text {
+          display: inline-block;
+      }
+  </style>
     <title>My test page</title>
   </head>
   <body bgcolor="pink" onload="init()">
-    <h1>你好大家好</h1>
-    <img src="pngtree1.png" />
+    <img src="2.png" width="200">
+    <p>To 彥霖寶貝：</p>
+
+    <p>&nbsp;</p>
+
+    <p>生日快樂！</p>
+
+    <p>在這特別的一天，</p>
+
+    <p>給你一張專屬為你寫的網頁卡片，</p>
+
+    <p>希望你會喜歡。</p>
+
+    <p>認識你也快一年，</p>
+
+    <p>喜歡每天跟你相處、抱抱、聊天，</p>
+
+    <p>雖然幾乎都很忙，</p>
+
+    <p>但每一天都因為有你而變得更加美好。</p>
+
+    <p>在這個特殊的時刻，</p>
+
+    <p>想讓你知道我很愛你，</p>
+
+    <p>我喜歡有你的存在，</p>
+
+    <p>工作上有壓力時想你就會好一些，</p>
+
+    <p>抱抱你心情就會開心一些，</p>
+
+    <p>諸如此類......。</p>
+
+    <p>謝謝你陪伴我走過每一個日子，</p>
+
+    <p>分享每一個瞬間。</p>
+
+    <p>希望你收到禮物時會感到驚喜與開心，</p>
+
+    <p>就像你總是給我帶來的那樣。</p>
+
+    <p>希望我們的愛情越來越深厚。</p>
+
+    <p>生日快樂，小胖胖！</p>
+
+    <p>讓我們一起創造更多美好的回憶。<img alt="smiley" src="https://cdn.ckeditor.com/4.8.0/full/plugins/smiley/images/regular_smile.png" style="height:23px; width:23px" title="smiley" /></p>
+
+    <p>&nbsp;</p>
+
+    <p>&nbsp;</p>
+
+    <p>愛你的 冠宇</p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <img src="1.png" />
 
 
 
-    <!-- 一開始即執行javascript的 init() function -->
-
-  <form   enctype="text/plain" accept-charset="utf-8">
-      <!-- 寄件者姓名    -->
-      <!--<input id="nameText" type="text" name="Name"  value size="60" placeholder="姓名(name)" required>  <!-- required 必填欄位 ，placeholder 預設內容--> 
-      
-      <!-- 寄件者email -->
-      <!--<input id="emailText" type="email" name="Email"  value size="60" placeholder="Email" required>
-      
-      <!-- 寄件者電話 -->
-      <!--<input id="telText"type="tel" name="Phone"  value size="60" aria-invalid="false" placeholder="電話(phone)" required>
-      
-      <!-- 郵件主旨 -->
-      <!--<input  id="subText" type="text" name="Subject"  value size="60" aria-invalid="false" placeholder="主旨(subject)" required>
-              
-      <!-- 郵件內容 -->
-      <textarea id="bodyText" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required></textarea>
-      
-      <!-- 傳送按鈕 -->
-      <div>
-          <input type="button" value="送出訊息" onclick="submitHandler();">
-          <a id="mailTo"></a>
-      </div>
-
-      
 
 
 
-
-  </form>
-
-
-
-
-  <script>
-    //宣告預設表單內容為空 （你想要的話也可以加東西）
-        var initSubject='',initBody='';
-
-        var nameText="曾彥霖"
-        var emailText="qaz16559001@gmail.com"
-        var telText="0913263563"
-        var subText="曾彥霖生日回訊"
-
-        //按下傳送按鈕後執行
-        function submitHandler(){
-            var to = "hoppie12399@gmail.com";//寫死的傳送對象 就是公司的信箱 不會顯示在網頁上
-            var name = nameText.value;//讀取ID為 nameTextuser 物件中的值
-            var email = emailText.value;
-            var tel = telText.value;
-            var subject = subText.value;
-    //把user填的資料都塞到 mail body 中
-            var body = ""+bodyText.value+'%0A%0A%0A';//%0A是換行 換了三行
-                body += "From："+nameText.value+'%0A';
-                body += "Email："+emailText.value+'%0A';
-                body += "Tel："+telText.value;
-    //傳送的主要程式碼
-            mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
-            mailTo.click();
-        }
-    //在body onload
-        function init(){
-            subText.value=initSubject;
-            toText.value=initTo;
-            bodyText.value=initBody;
-        }
-    </script>
-
-
-
+  
 
 
 
